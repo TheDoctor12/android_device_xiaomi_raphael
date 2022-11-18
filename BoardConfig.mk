@@ -68,7 +68,6 @@ BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
 BOARD_USES_ADRENO := true
 TARGET_DISABLED_UBWC := true
 TARGET_SCREEN_DENSITY := 440
-TARGET_USES_ION := true
 TARGET_HAS_HDR_DISPLAY := true
 TARGET_HAS_WIDE_COLOR_DISPLAY := true
 
@@ -84,8 +83,9 @@ TARGET_SURFACEFLINGER_UDFPS_LIB := //$(DEVICE_PATH):libudfps_extension.raphael
 TARGET_USES_FOD_ZPOS := true
 
 # HIDL
-DEVICE_FRAMEWORK_MANIFEST_FILE := \
-    $(DEVICE_PATH)/vintf/framework_manifest.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
+    vendor/qcom/opensource/core-utils/vendor_framework_compatibility_matrix.xml \
+    $(DEVICE_PATH)/vintf/xiaomi_vendor_framework_compatibility_matrix.xml
 
 DEVICE_MANIFEST_FILE += \
     $(DEVICE_PATH)/vintf/manifest.xml \
