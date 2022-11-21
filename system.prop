@@ -72,6 +72,10 @@ ro.netflix.bsp_rev=Q855-16947-1
 # One handed mode
 ro.support_one_handed_mode=true
 
+# ParanoidDoze
+ro.sensor.pickup=xiaomi.sensor.pickup
+ro.sensor.proximity=true
+
 # RCS
 persist.rcs.supported=1
 
