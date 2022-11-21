@@ -146,8 +146,8 @@ PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
 # Display
 TARGET_BOARD_PLATFORM := msmnile
 
--include hardware/qcom-caf/sm8150/display/config/display-board.mk
--include hardware/qcom-caf/sm8150/display/config/display-product.mk
+-include hardware/qcom/display/config/display-board.mk
+-include hardware/qcom/display/config/display-product.mk
 include vendor/qcom/opensource/commonsys-intf/display/config/display-interfaces-product.mk
 include vendor/qcom/opensource/commonsys-intf/display/config/display-product-system.mk
 
@@ -314,9 +314,9 @@ PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video.xml
 
 PRODUCT_COPY_FILES += \
-    hardware/qcom-caf/sm8150/media/conf_files/msmnile/media_codecs_performance.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance.xml \
-    hardware/qcom-caf/sm8150/media/conf_files/msmnile/media_codecs_vendor_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor_audio.xml \
-    hardware/qcom-caf/sm8150/media/conf_files/msmnile/system_properties.xml:$(TARGET_COPY_OUT_VENDOR)/etc/system_properties.xml
+    hardware/qcom/media/conf_files/msmnile/media_codecs_performance.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance.xml \
+    hardware/qcom/media/conf_files/msmnile/media_codecs_vendor_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor_audio.xml \
+    hardware/qcom/media/conf_files/msmnile/system_properties.xml:$(TARGET_COPY_OUT_VENDOR)/etc/system_properties.xml
 
 # Native Public Libraries
 PRODUCT_COPY_FILES += \
