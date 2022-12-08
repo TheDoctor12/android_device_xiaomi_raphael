@@ -131,7 +131,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     fstab.qcom \
-    init.target.rc
+    init.target.rc \
+    init.raphael.post_boot.sh
 
 # Netflix
 PRODUCT_SYSTEM_PROPERTIES += \
