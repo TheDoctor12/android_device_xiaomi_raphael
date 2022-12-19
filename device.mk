@@ -362,6 +362,7 @@ TARGET_COMMON_QTI_COMPONENTS := \
     adreno \
     bt \
     perf \
+    telephony \
     usb \
     vibrator \
     wlan
