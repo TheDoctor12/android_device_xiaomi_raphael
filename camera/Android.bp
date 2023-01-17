@@ -20,14 +20,3 @@ cc_library_shared {
     srcs: ["megvii_shim.cpp"],
 }
 
-cc_library_shared {
-    name: "libpiex_shim",
-
-    shared_libs: [
-        "libpiex",
-        "libutils",
-    ],
-
-    proprietary: true,
-    srcs: ["libpiex_shim.cpp"],
-}
