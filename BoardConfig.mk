@@ -158,9 +158,6 @@ TARGET_USERIMAGES_SPARSE_EXT_DISABLED := false
 # Platform
 TARGET_BOARD_PLATFORM := msmnile
 
-# Power
-TARGET_POWER_FEATURE_EXT_LIB := //$(DEVICE_PATH):libpowerfeature_ext_raphael
-
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
