@@ -177,6 +177,7 @@ PRODUCT_PACKAGES += \
     AOSPARaphaelSystemUI \
     RaphaelCarrierConfigOverlay \
     RaphaelFrameworks \
+    RaphaelSettings \
     RaphaelSystemUI
 
 PRODUCT_ENFORCE_RRO_TARGETS += *
