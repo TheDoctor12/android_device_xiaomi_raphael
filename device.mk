@@ -246,8 +246,9 @@ PRODUCT_COPY_FILES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH) \
-    hardware/xiaomi
+    hardware/xiaomi \
+    bootable/deprecated-ota \
+    $(LOCAL_PATH)
 
 # Storage
 PRODUCT_VENDOR_PROPERTIES += \
