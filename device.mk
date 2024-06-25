@@ -258,6 +258,9 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.ssr.restart_level=ALL_ENABLE
 
+# Update
+AB_OTA_UPDATER := false
+
 # WiFi
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     config.disable_rtt=true
